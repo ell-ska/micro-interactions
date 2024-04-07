@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import { Albert_Sans } from 'next/font/google'
 
 import { Header } from '@/components/Header'
+import { Footer } from '@/components/Footer'
 import { cn } from '@/utils/classnames'
 import './globals.css'
 
@@ -35,6 +36,7 @@ export default function RootLayout({
         <main className='grid grow place-items-center px-6 md:px-8'>
           {children}
         </main>
+        <Footer />
       </body>
     </html>
   )

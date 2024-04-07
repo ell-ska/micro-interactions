@@ -10,7 +10,7 @@ export const Header = () => {
       <Link href='/'>
         <Image src={logo} alt='logo' priority />
       </Link>
-      <Dropdown items={[]} />
+      <Dropdown />
     </header>
   )
 }
