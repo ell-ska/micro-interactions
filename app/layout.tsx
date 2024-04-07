@@ -1,7 +1,9 @@
 import type { Metadata } from 'next'
 import { Albert_Sans } from 'next/font/google'
-import './globals.css'
+
+import { Header } from '@/components/Header'
 import { cn } from '@/utils/classnames'
+import './globals.css'
 
 const albertSans = Albert_Sans({
   subsets: ['latin'],
@@ -26,10 +28,13 @@ export default function RootLayout({
       <body
         className={cn(
           albertSans.variable,
-          'bg-zinc-50 font-primary text-zinc-900',
+          'font-primary [&_*]:outline-green flex min-h-screen flex-col bg-zinc-50 text-zinc-900',
         )}
       >
-        {children}
+        <Header />
+        <main className='grid grow place-items-center px-6 md:px-8'>
+          {children}
+        </main>
       </body>
     </html>
   )

@@ -10,7 +10,14 @@ const config: Config = {
     fontFamily: {
       primary: 'var(--albert-sans)',
     },
-    extend: {},
+    boxShadow: {
+      DEFAULT: '0 8px 32px #18181B1F',
+    },
+    extend: {
+      colors: {
+        green: '#00C28A',
+      },
+    },
   },
   plugins: [],
 }
