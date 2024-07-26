@@ -4,7 +4,7 @@ const nextConfig = {
     return [
       {
         source: '/',
-        destination: '/default',
+        destination: '/squishy-cards',
       },
     ]
   },
