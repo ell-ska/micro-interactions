@@ -29,7 +29,7 @@ export default function RootLayout({
       <body
         className={cn(
           albertSans.variable,
-          'font-primary [&_*]:outline-green flex min-h-screen flex-col bg-zinc-50 text-zinc-900',
+          'font-primary **:outline-green flex min-h-screen flex-col bg-zinc-50 text-zinc-900',
         )}
       >
         <Header />
