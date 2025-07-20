@@ -1,3 +1,9 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import 'tailwindcss';
+
+@theme {
+  --font-primary: var(--albert-sans);
+
+  --shadow: 0 8px 32px #18181b1f;
+
+  --color-green: #00c28a;
+}

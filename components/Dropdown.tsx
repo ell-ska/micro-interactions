@@ -40,9 +40,9 @@ export const Dropdown = () => {
               <Link
                 href={`/${path}`}
                 className={cn(
-                  'px-3 py-2 text-zinc-500 transition hover:outline-none',
+                  'px-3 py-2 text-zinc-500 transition hover:outline-hidden',
                   activeProject?.name !== name &&
-                    'hover:mx-1 hover:rounded hover:bg-zinc-100 hover:px-2 hover:text-zinc-700',
+                    'hover:mx-1 hover:rounded-sm hover:bg-zinc-100 hover:px-2 hover:text-zinc-700',
                   activeProject?.name === name && 'bg-zinc-100 text-zinc-900',
                 )}
               >

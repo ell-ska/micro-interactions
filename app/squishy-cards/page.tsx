@@ -34,7 +34,7 @@ const Card = ({ tag, preTitle, title, prices, button, background }: Data) => {
         duration: 1,
         ease: 'backOut',
       }}
-      className='relative isolate flex max-h-[540px] flex-col items-center justify-between gap-8 overflow-hidden rounded-[2rem] bg-[#AF9FFE] p-8 sm:rounded-[4.5rem] sm:p-12 lg:h-3/4'
+      className='relative isolate flex max-h-[540px] flex-col items-center justify-between gap-8 overflow-hidden rounded-4xl bg-[#AF9FFE] p-8 sm:rounded-[4.5rem] sm:p-12 lg:h-3/4'
     >
       {tag ? <Tag className='self-start'>{tag}</Tag> : <TagSpacer />}
       <div className='self-start'>
