@@ -28,7 +28,7 @@ export const Dropdown = () => {
       <Portal>
         <Content
           className={cn(
-            'flex min-w-40 max-w-60 flex-col gap-1 rounded-lg bg-white py-1 text-sm shadow',
+            'flex max-w-60 min-w-40 flex-col gap-1 rounded-lg bg-white py-1 text-sm shadow',
             activeProject === projects[0] && 'pt-0',
             activeProject === projects[projects.length - 1] && 'pb-0',
           )}

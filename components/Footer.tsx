@@ -1,20 +1,16 @@
 'use client'
 
-import { usePathname } from 'next/navigation'
-
-import { projects } from '@/app/config'
 import { useActiveProject } from '@/hooks/useActiveProject'
 import { cn } from '@/utils/classnames'
 
 export const Footer = () => {
-  const path = usePathname()
-  const activeProject = useActiveProject() || path === '/' ? projects[0] : null
+  const activeProject = useActiveProject()
   if (!activeProject?.footerContent) return null
 
   return (
     <footer
       className={cn([
-        'flex justify-center pb-2 pt-6 text-xs',
+        'flex justify-center pt-6 pb-2 text-xs',
         '[&_a]:underline',
       ])}
     >

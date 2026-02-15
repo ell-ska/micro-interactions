@@ -7,3 +7,23 @@
 
   --color-green: #00c28a;
 }
+
+.light-bulb.off {
+  --color-outline: var(--color-zinc-500);
+  --color-wire: var(--color-zinc-900);
+  --color-top: var(--color-zinc-600);
+  --color-base: var(--color-zinc-700);
+  --color-base-shine: var(--color-zinc-400);
+  --color-bulb: var(--color-zinc-600);
+  --color-bulb-shine: var(--color-zinc-100);
+}
+
+.light-bulb.on {
+  --color-outline: var(--color-zinc-700);
+  --color-wire: var(--color-amber-200);
+  --color-top: var(--color-zinc-300);
+  --color-base: var(--color-zinc-300);
+  --color-base-shine: var(--color-zinc-100);
+  --color-bulb: var(--color-amber-200);
+  --color-bulb-shine: var(--color-amber-50);
+}

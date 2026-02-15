@@ -21,4 +21,16 @@ export const projects: Project[] = [
       </span>
     ),
   },
+  {
+    path: 'light-bulb',
+    name: 'light bulb',
+    footerContent: (
+      <span>
+        <Link href='https://www.instagram.com/p/DGJGaRCApLF/'>
+          instagram reel
+        </Link>{' '}
+        requested by: <Link href='https://www.laestander.dev/'>fredric</Link>
+      </span>
+    ),
+  },
 ]
